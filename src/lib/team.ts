@@ -26,7 +26,7 @@ export const teamMembers: TeamMember[] = [
     bio: "Handles research, documentation, and finding potential clients.",
   },
   {
-    name: "Ahmad Faraz",
+    name: "Ahmad Faraz M",
     role: "Backend Developer",
     image:
       "https://ui-avatars.com/api/?name=Ahmad+Faraz&background=1e3a8a&color=fff&size=200",

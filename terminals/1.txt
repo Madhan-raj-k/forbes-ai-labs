@@ -1,0 +1,23 @@
+---
+pid: 33976
+cwd: "C:\Users\ADMIN\OneDrive\Desktop\Forbes-ai-lab"
+command: "npm run dev"
+started_at: 2026-06-23T18:13:58.974Z
+running_for_ms: 535003   
+---
+
+> forbes-ai-lab@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+ ⚠ Port 3001 is in use, trying 3002 instead.
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3002
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 4.4s (1585 modules)
+ GET / 200 in 4676ms
+ ✓ Compiled in 439ms (738 modules)

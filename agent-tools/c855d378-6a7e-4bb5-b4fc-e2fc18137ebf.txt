@@ -1,0 +1,625 @@
+
+<!DOCTYPE html><html lang="en" class="dark"><head><meta charSet="utf-8"/><meta name="viewport" 
+content="width=device-width, initial-scale=1"/><link rel="preload" as="image" imageSrcSet="/_next/image?url=https%3A%2F
+%2Fimages.unsplash.com%2Fphoto-1677442136019-21780ecad995%3Fw%3D800%26q%3D80&amp;w=828&amp;q=75 1x, /_next/image?url=ht
+tps%3A%2F%2Fimages.unsplash.com%2Fphoto-1677442136019-21780ecad995%3Fw%3D800%26q%3D80&amp;w=1920&amp;q=75 2x" 
+fetchPriority="high"/><link rel="stylesheet" href="/_next/static/css/app/layout.css?v=1782238453667" 
+data-precedence="next_static/css/app/layout.css"/><link rel="preload" as="script" fetchPriority="low" 
+href="/_next/static/chunks/webpack.js?v=1782238453667"/><script src="/_next/static/chunks/main-app.js?v=1782238453667" 
+async=""></script><script src="/_next/static/chunks/app-pages-internals.js" async=""></script><script 
+src="/_next/static/chunks/app/page.js" async=""></script><title>Forbes AI Labs | Student-Led AI &amp; Web Development 
+Agency</title><meta name="description" content="Forbes AI Labs crafts cutting-edge AI solutions and premium web 
+experiences. Student-led agency delivering intelligent digital products for startups and businesses."/><meta 
+name="keywords" content="AI development,web development,student agency,Next.js,machine learning,UI/UX design"/><meta 
+property="og:title" content="Forbes AI Labs"/><meta property="og:description" content="Student-led AI &amp; Web 
+Development Agency"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary"/><meta 
+name="twitter:title" content="Forbes AI Labs"/><meta name="twitter:description" content="Student-led AI &amp; Web 
+Development Agency"/><link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16"/><script 
+src="/_next/static/chunks/polyfills.js" noModule=""></script></head><body class="__variable_dd5b2f __variable_f367f3 
+font-body antialiased"><main class="min-h-screen"><header class="fixed top-0 left-0 right-0 z-50 transition-all 
+duration-300 bg-transparent"><nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex items-center 
+justify-between h-16 md:h-20"><a class="flex items-center gap-2 group" href="/"><div class="flex items-center 
+justify-center w-9 h-9 rounded-lg bg-electric-500/20 border border-electric-500/30 group-hover:bg-electric-500/30 
+transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" 
+stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles 
+w-5 h-5 text-electric-400" aria-hidden="true"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 
+1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 
+0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 
+2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg></div><span class="font-heading 
+font-bold text-lg text-white">Forbes <span class="text-electric-400">AI Labs</span></span></a><div class="hidden 
+md:flex items-center gap-8"><a class="text-sm text-white/70 hover:text-white transition-colors relative after:absolute 
+after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-electric-500 after:transition-all hover:after:w-full" 
+href="#about">About</a><a class="text-sm text-white/70 hover:text-white transition-colors relative after:absolute 
+after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-electric-500 after:transition-all hover:after:w-full" 
+href="#services">Services</a><a class="text-sm text-white/70 hover:text-white transition-colors relative 
+after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-electric-500 after:transition-all 
+hover:after:w-full" href="#work">Work</a><a class="text-sm text-white/70 hover:text-white transition-colors relative 
+after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-electric-500 after:transition-all 
+hover:after:w-full" href="#team">Team</a><a class="text-sm text-white/70 hover:text-white transition-colors relative 
+after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-electric-500 after:transition-all 
+hover:after:w-full" href="#contact">Contact</a></div><div class="hidden md:block"><a class="inline-flex items-center 
+justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium transition-all focus-visible:outline-none 
+focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-navy-900 
+disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 
+[&amp;_svg]:shrink-0 bg-electric-500 text-white shadow-lg shadow-electric-500/25 hover:bg-electric-600 
+hover:shadow-electric-500/40 h-11 px-6 py-2" href="#contact">Book a Call</a></div><button class="md:hidden p-2 
+text-white" aria-label="Toggle menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 
+24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide 
+lucide-menu w-6 h-6" aria-hidden="true"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 
+19h16"></path></svg></button></div></nav></header><section class="relative min-h-screen flex items-center 
+overflow-hidden pt-20"><div class="absolute inset-0 bg-hero-glow"></div><div class="absolute top-1/4 -left-32 w-96 
+h-96 bg-electric-500/10 rounded-full blur-3xl"></div><div class="absolute bottom-1/4 -right-32 w-96 h-96 
+bg-electric-600/10 rounded-full blur-3xl"></div><div class="absolute inset-0 opacity-[0.03]" 
+style="background-image:linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
+                           linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px);background-size:64px 
+64px"></div><div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 w-full"><div class="grid 
+lg:grid-cols-2 gap-12 lg:gap-16 items-center"><div class="text-center lg:text-left"><div 
+style="opacity:0;transform:translateY(20px)"><span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full 
+border border-electric-500/30 bg-electric-500/10 text-electric-400 text-sm font-medium mb-6"><span class="w-2 h-2 
+rounded-full bg-electric-400 animate-pulse"></span>Student-led AI &amp; Web Agency</span></div><h1 class="text-4xl 
+sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-[1.1] mb-6 text-balance" 
+style="opacity:0;transform:translateY(20px)">We Build<!-- --> <span class="gradient-text">Intelligent</span> <!-- 
+-->Digital Experiences</h1><p class="text-lg md:text-xl text-white/60 max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed" 
+style="opacity:0;transform:translateY(20px)">Forbes AI Labs crafts cutting-edge AI solutions and premium web 
+experiences for startups, businesses, and innovators ready to lead the future.</p><div class="flex flex-col 
+sm:flex-row items-center justify-center lg:justify-start gap-4" style="opacity:0;transform:translateY(20px)"><a 
+class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all 
+focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 
+focus-visible:ring-offset-navy-900 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none 
+[&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-electric-500 text-white shadow-lg shadow-electric-500/25 
+hover:bg-electric-600 hover:shadow-electric-500/40 h-12 rounded-lg px-8 text-base" href="#contact">Start Your 
+Project<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" 
+stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right 
+w-5 h-5" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a><a class="inline-flex 
+items-center justify-center gap-2 whitespace-nowrap font-medium transition-all focus-visible:outline-none 
+focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-navy-900 
+disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 
+[&amp;_svg]:shrink-0 border border-white/20 bg-transparent text-white hover:bg-white/10 hover:border-electric-500/50 
+h-12 rounded-lg px-8 text-base" href="#work"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 
+0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+class="lucide lucide-play w-4 h-4" aria-hidden="true"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 
+3.458l-12 7A2 2 0 0 1 5 19z"></path></svg>View Our Work</a></div><div class="flex items-center justify-center 
+lg:justify-start gap-8 mt-12 pt-8 border-t border-white/10" style="opacity:0;transform:translateY(20px)"><div 
+class="text-center lg:text-left"><div class="text-2xl md:text-3xl font-bold text-white">25+</div><div class="text-sm 
+text-white/50">Projects Delivered</div></div><div class="text-center lg:text-left"><div class="text-2xl md:text-3xl 
+font-bold text-white">15+</div><div class="text-sm text-white/50">Happy Clients</div></div><div class="text-center 
+lg:text-left"><div class="text-2xl md:text-3xl font-bold text-white">100%</div><div class="text-sm 
+text-white/50">Client Satisfaction</div></div></div></div><div class="relative" 
+style="opacity:0;transform:scale(0.95)"><div class="relative aspect-square max-w-lg mx-auto"><div class="absolute 
+inset-0 rounded-3xl bg-gradient-to-br from-electric-500/20 to-transparent blur-2xl"></div><div class="relative 
+rounded-3xl overflow-hidden border border-white/10 shadow-2xl shadow-electric-500/10"><img alt="AI and technology 
+visualization" fetchPriority="high" width="800" height="800" decoding="async" data-nimg="1" class="w-full h-full 
+object-cover" style="color:transparent" srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-167744213601
+9-21780ecad995%3Fw%3D800%26q%3D80&amp;w=828&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-167
+7442136019-21780ecad995%3Fw%3D800%26q%3D80&amp;w=1920&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fimages.unsplash.
+com%2Fphoto-1677442136019-21780ecad995%3Fw%3D800%26q%3D80&amp;w=1920&amp;q=75"/><div class="absolute inset-0 
+bg-gradient-to-t from-navy-900/80 via-transparent to-transparent"></div></div><div class="absolute -bottom-6 -left-6 
+glass rounded-xl p-4 shadow-xl"><div class="flex items-center gap-3"><div class="w-10 h-10 rounded-lg 
+bg-electric-500/20 flex items-center justify-center"><span class="text-electric-400 text-lg">?</span></div><div><div 
+class="text-white font-semibold text-sm">AI-Powered</div><div class="text-white/50 text-xs">Next-gen 
+solutions</div></div></div></div><div class="absolute -top-4 -right-4 glass rounded-xl p-4 shadow-xl"><div 
+class="text-electric-400 font-bold text-2xl">98%</div><div class="text-white/50 text-xs">Uptime 
+SLA</div></div></div></div></div></div></section><section id="about" class="section-padding relative"><div 
+class="absolute inset-0 bg-card-glow pointer-events-none"></div><div class="relative max-w-7xl mx-auto"><div 
+class="mb-12 md:mb-16 text-center mx-auto max-w-2xl" style="opacity:0;transform:translateY(20px)"><span 
+class="inline-block mb-3 text-sm font-medium tracking-widest uppercase text-electric-400">About Us</span><h2 
+class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 text-balance">Passionate Students Building the 
+Future of Tech</h2><p class="text-lg text-white/60 leading-relaxed">We&#x27;re a collective of ambitious student 
+developers and designers who believe great technology shouldn&#x27;t be reserved for big corporations.</p></div><div 
+class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center"><div class="relative" 
+style="opacity:0;transform:translateX(-30px)"><div class="relative rounded-2xl overflow-hidden border 
+border-white/10"><img alt="Forbes AI Labs team collaborating" loading="lazy" width="800" height="600" decoding="async" 
+data-nimg="1" class="w-full aspect-[4/3] object-cover" style="color:transparent" srcSet="/_next/image?url=https%3A%2F%2
+Fimages.unsplash.com%2Fphoto-1522071820081-009f0129c71c%3Fw%3D800%26q%3D80&amp;w=828&amp;q=75 1x, /_next/image?url=http
+s%3A%2F%2Fimages.unsplash.com%2Fphoto-1522071820081-009f0129c71c%3Fw%3D800%26q%3D80&amp;w=1920&amp;q=75 2x" src="/_next
+/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1522071820081-009f0129c71c%3Fw%3D800%26q%3D80&amp;w=1920&amp;q=75"
+/><div class="absolute inset-0 bg-gradient-to-tr from-navy-900/60 to-transparent"></div></div><div class="absolute 
+-bottom-6 -right-6 w-48 h-48 bg-electric-500/10 rounded-full blur-3xl -z-10"></div></div><div class="space-y-6" 
+style="opacity:0;transform:translateX(30px)"><p class="text-white/70 text-lg leading-relaxed">Founded at the 
+intersection of academia and industry, Forbes AI Labs was born from a simple belief: students can deliver world-class 
+digital products when given the right tools and mentorship.</p><p class="text-white/70 text-lg leading-relaxed">From 
+AI-powered applications to stunning web platforms, we partner with startups and businesses to turn ambitious ideas 
+into polished, production-ready solutions - at a fraction of traditional agency costs.</p><ul class="space-y-4 
+pt-4"><li class="flex items-start gap-3" style="opacity:0;transform:translateX(20px)"><svg 
+xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-5 h-5 
+text-electric-400 mt-0.5 shrink-0" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 
+4-4"></path></svg><span class="text-white/80">Student-led team with industry-grade expertise</span></li><li 
+class="flex items-start gap-3" style="opacity:0;transform:translateX(20px)"><svg xmlns="http://www.w3.org/2000/svg" 
+width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="lucide lucide-circle-check w-5 h-5 text-electric-400 mt-0.5 shrink-0" 
+aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span 
+class="text-white/80">Agile development with rapid turnaround</span></li><li class="flex items-start gap-3" 
+style="opacity:0;transform:translateX(20px)"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 
+0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+class="lucide lucide-circle-check w-5 h-5 text-electric-400 mt-0.5 shrink-0" aria-hidden="true"><circle cx="12" 
+cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg><span class="text-white/80">Cutting-edge AI integration 
+in every project</span></li><li class="flex items-start gap-3" style="opacity:0;transform:translateX(20px)"><svg 
+xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check w-5 h-5 
+text-electric-400 mt-0.5 shrink-0" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 
+4-4"></path></svg><span class="text-white/80">Transparent communication &amp; fair 
+pricing</span></li></ul></div></div></div></section><section id="services" class="section-padding bg-navy-950/50"><div 
+class="max-w-7xl mx-auto"><div class="mb-12 md:mb-16 text-center mx-auto max-w-2xl" 
+style="opacity:0;transform:translateY(20px)"><span class="inline-block mb-3 text-sm font-medium tracking-widest 
+uppercase text-electric-400">Services</span><h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 
+text-balance">What We Do Best</h2><p class="text-lg text-white/60 leading-relaxed">We offer end-to-end digital 
+services - from concept to deployment - helping you launch faster and smarter.</p></div><div class="grid 
+sm:grid-cols-2 lg:grid-cols-4 gap-6"><div style="opacity:0;transform:translateY(30px)"><div class="rounded-xl border 
+border-white/10 bg-navy-800/40 text-card-foreground shadow-xl backdrop-blur-sm h-full group 
+hover:border-electric-500/30 hover:bg-navy-800/60 transition-all duration-300"><div class="flex flex-col space-y-1.5 
+p-6"><div class="w-12 h-12 rounded-xl bg-electric-500/10 border border-electric-500/20 flex items-center 
+justify-center mb-4 group-hover:bg-electric-500/20 group-hover:scale-110 transition-all duration-300"><svg 
+xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain w-6 h-6 text-electric-400" 
+aria-hidden="true"><path d="M12 18V5"></path><path d="M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4"></path><path 
+d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5"></path><path d="M17.997 5.125a4 4 0 0 1 2.526 5.77"></path><path 
+d="M18 18a4 4 0 0 0 2-7.464"></path><path d="M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517"></path><path d="M6 
+18a4 4 0 0 1-2-7.464"></path><path d="M6.003 5.125a4 4 0 0 0-2.526 5.77"></path></svg></div><h3 class="font-heading 
+text-xl font-semibold leading-none tracking-tight text-white">AI Solutions</h3></div><div class="p-6 pt-0"><p 
+class="text-white/60 leading-relaxed">Custom AI integrations, chatbots, automation workflows, and machine learning 
+models tailored to your business needs.</p></div></div></div><div style="opacity:0;transform:translateY(30px)"><div 
+class="rounded-xl border border-white/10 bg-navy-800/40 text-card-foreground shadow-xl backdrop-blur-sm h-full group 
+hover:border-electric-500/30 hover:bg-navy-800/60 transition-all duration-300"><div class="flex flex-col space-y-1.5 
+p-6"><div class="w-12 h-12 rounded-xl bg-electric-500/10 border border-electric-500/20 flex items-center 
+justify-center mb-4 group-hover:bg-electric-500/20 group-hover:scale-110 transition-all duration-300"><svg 
+xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe w-6 h-6 text-electric-400" 
+aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 
+0-20"></path><path d="M2 12h20"></path></svg></div><h3 class="font-heading text-xl font-semibold leading-none 
+tracking-tight text-white">Web Development</h3></div><div class="p-6 pt-0"><p class="text-white/60 
+leading-relaxed">Premium, responsive websites and web applications built with modern frameworks like Next.js, React, 
+and TypeScript.</p></div></div></div><div style="opacity:0;transform:translateY(30px)"><div class="rounded-xl border 
+border-white/10 bg-navy-800/40 text-card-foreground shadow-xl backdrop-blur-sm h-full group 
+hover:border-electric-500/30 hover:bg-navy-800/60 transition-all duration-300"><div class="flex flex-col space-y-1.5 
+p-6"><div class="w-12 h-12 rounded-xl bg-electric-500/10 border border-electric-500/20 flex items-center 
+justify-center mb-4 group-hover:bg-electric-500/20 group-hover:scale-110 transition-all duration-300"><svg 
+xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smartphone w-6 h-6 
+text-electric-400" aria-hidden="true"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect><path d="M12 
+18h.01"></path></svg></div><h3 class="font-heading text-xl font-semibold leading-none tracking-tight text-white">UI/UX 
+Design</h3></div><div class="p-6 pt-0"><p class="text-white/60 leading-relaxed">Beautiful, intuitive interfaces 
+designed with user research, wireframing, and pixel-perfect visual design.</p></div></div></div><div 
+style="opacity:0;transform:translateY(30px)"><div class="rounded-xl border border-white/10 bg-navy-800/40 
+text-card-foreground shadow-xl backdrop-blur-sm h-full group hover:border-electric-500/30 hover:bg-navy-800/60 
+transition-all duration-300"><div class="flex flex-col space-y-1.5 p-6"><div class="w-12 h-12 rounded-xl 
+bg-electric-500/10 border border-electric-500/20 flex items-center justify-center mb-4 group-hover:bg-electric-500/20 
+group-hover:scale-110 transition-all duration-300"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+class="lucide lucide-chart-column w-6 h-6 text-electric-400" aria-hidden="true"><path d="M3 3v16a2 2 0 0 0 2 
+2h16"></path><path d="M18 17V9"></path><path d="M13 17V5"></path><path d="M8 17v-3"></path></svg></div><h3 
+class="font-heading text-xl font-semibold leading-none tracking-tight text-white">Data &amp; Analytics</h3></div><div 
+class="p-6 pt-0"><p class="text-white/60 leading-relaxed">Interactive dashboards, data pipelines, and analytics 
+platforms that turn raw data into actionable insights.</p></div></div></div></div></div></section><section id="work" 
+class="section-padding relative"><div class="absolute inset-0 bg-hero-glow opacity-50 pointer-events-none"></div><div 
+class="relative max-w-7xl mx-auto"><div class="mb-12 md:mb-16 text-center mx-auto max-w-2xl" 
+style="opacity:0;transform:translateY(20px)"><span class="inline-block mb-3 text-sm font-medium tracking-widest 
+uppercase text-electric-400">Our Work</span><h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 
+text-balance">Projects That Speak for Themselves</h2><p class="text-lg text-white/60 leading-relaxed">Explore our 
+portfolio of AI-powered applications and premium web experiences built for real clients.</p></div><div class="grid 
+md:grid-cols-2 lg:grid-cols-3 gap-8"><div style="opacity:0;transform:translateY(30px)"><div class="rounded-xl border 
+border-white/10 bg-navy-800/40 text-card-foreground shadow-xl backdrop-blur-sm group overflow-hidden h-full 
+hover:border-electric-500/30 transition-all duration-300"><div class="relative aspect-video overflow-hidden"><img 
+alt="Nova AI Assistant" loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform 
+duration-500 group-hover:scale-105" 
+style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="(max-width: 
+768px) 100vw, (max-width: 1200px) 50vw, 33vw" srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-167744
+2136019-21780ecad995%3Fw%3D800%26q%3D80&amp;w=256&amp;q=75 256w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fp
+hoto-1677442136019-21780ecad995%3Fw%3D800%26q%3D80&amp;w=384&amp;q=75 384w, /_next/image?url=https%3A%2F%2Fimages.unspl
+ash.com%2Fphoto-1677442136019-21780ecad995%3Fw%3D800%26q%3D80&amp;w=640&amp;q=75 640w, /_next/image?url=https%3A%2F%2Fi
+mages.unsplash.com%2Fphoto-1677442136019-21780ecad995%3Fw%3D800%26q%3D80&amp;w=750&amp;q=75 750w, /_next/image?url=http
+s%3A%2F%2Fimages.unsplash.com%2Fphoto-1677442136019-21780ecad995%3Fw%3D800%26q%3D80&amp;w=828&amp;q=75 828w, /_next/ima
+ge?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1677442136019-21780ecad995%3Fw%3D800%26q%3D80&amp;w=1080&amp;q=75 
+1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1677442136019-21780ecad995%3Fw%3D800%26q%3D80&amp;w=1
+200&amp;q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1677442136019-21780ecad995%3Fw%3D800%26q
+%3D80&amp;w=1920&amp;q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1677442136019-21780ecad995%
+3Fw%3D800%26q%3D80&amp;w=2048&amp;q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1677442136019-
+21780ecad995%3Fw%3D800%26q%3D80&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fph
+oto-1677442136019-21780ecad995%3Fw%3D800%26q%3D80&amp;w=3840&amp;q=75"/><div class="absolute inset-0 bg-gradient-to-t 
+from-navy-900 via-navy-900/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity"></div><div 
+class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-medium transition-colors 
+border-electric-500/30 bg-electric-500/10 text-electric-400 absolute top-4 left-4">Featured</div></div><div class="p-6 
+space-y-4"><div><h3 class="font-heading text-xl font-semibold text-white mb-2 group-hover:text-electric-400 
+transition-colors">Nova AI Assistant</h3><p class="text-white/60 text-sm leading-relaxed line-clamp-2">An intelligent 
+chatbot platform with real-time responses and custom knowledge bases for businesses.</p></div><div class="flex 
+flex-wrap gap-2"><div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-medium 
+transition-colors border-white/10 bg-white/5 text-white/70">Next.js</div><div class="inline-flex items-center 
+rounded-full border px-2.5 py-0.5 text-xs font-medium transition-colors border-white/10 bg-white/5 
+text-white/70">OpenAI</div><div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-medium 
+transition-colors border-white/10 bg-white/5 text-white/70">Supabase</div><div class="inline-flex items-center 
+rounded-full border px-2.5 py-0.5 text-xs font-medium transition-colors border-white/10 bg-white/5 
+text-white/70">Tailwind</div></div><div class="flex gap-3 pt-2"><a target="_blank" rel="noopener noreferrer" 
+class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all 
+focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 
+focus-visible:ring-offset-navy-900 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none 
+[&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-electric-500 text-white shadow-lg shadow-electric-500/25 
+hover:bg-electric-600 hover:shadow-electric-500/40 h-9 rounded-md px-4 flex-1" href="https://example.com"><svg 
+xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-4 h-4" 
+aria-hidden="true"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 
+1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>Live Demo</a><a target="_blank" rel="noopener noreferrer" class="inline-flex 
+items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all focus-visible:outline-none 
+focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-navy-900 
+disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 
+[&amp;_svg]:shrink-0 border border-white/20 bg-transparent text-white hover:bg-white/10 hover:border-electric-500/50 
+h-9 rounded-md px-4 flex-1" href="https://github.com"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+class="lucide lucide-code-xml w-4 h-4" aria-hidden="true"><path d="m18 16 4-4-4-4"></path><path d="m6 8-4 4 4 
+4"></path><path d="m14.5 4-5 16"></path></svg>GitHub</a></div></div></div></div><div 
+style="opacity:0;transform:translateY(30px)"><div class="rounded-xl border border-white/10 bg-navy-800/40 
+text-card-foreground shadow-xl backdrop-blur-sm group overflow-hidden h-full hover:border-electric-500/30 
+transition-all duration-300"><div class="relative aspect-video overflow-hidden"><img alt="Pulse Analytics Dashboard" 
+loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-500 
+group-hover:scale-105" 
+style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="(max-width: 
+768px) 100vw, (max-width: 1200px) 50vw, 33vw" srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-155128
+8049-bebda4e38f71%3Fw%3D800%26q%3D80&amp;w=256&amp;q=75 256w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphot
+o-1551288049-bebda4e38f71%3Fw%3D800%26q%3D80&amp;w=384&amp;q=75 384w, /_next/image?url=https%3A%2F%2Fimages.unsplash.co
+m%2Fphoto-1551288049-bebda4e38f71%3Fw%3D800%26q%3D80&amp;w=640&amp;q=75 640w, /_next/image?url=https%3A%2F%2Fimages.uns
+plash.com%2Fphoto-1551288049-bebda4e38f71%3Fw%3D800%26q%3D80&amp;w=750&amp;q=75 750w, /_next/image?url=https%3A%2F%2Fim
+ages.unsplash.com%2Fphoto-1551288049-bebda4e38f71%3Fw%3D800%26q%3D80&amp;w=828&amp;q=75 828w, /_next/image?url=https%3A
+%2F%2Fimages.unsplash.com%2Fphoto-1551288049-bebda4e38f71%3Fw%3D800%26q%3D80&amp;w=1080&amp;q=75 1080w, /_next/image?ur
+l=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1551288049-bebda4e38f71%3Fw%3D800%26q%3D80&amp;w=1200&amp;q=75 1200w, /_nex
+t/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1551288049-bebda4e38f71%3Fw%3D800%26q%3D80&amp;w=1920&amp;q=75 
+1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1551288049-bebda4e38f71%3Fw%3D800%26q%3D80&amp;w=2048
+&amp;q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1551288049-bebda4e38f71%3Fw%3D800%26q%3D80&
+amp;w=3840&amp;q=75 3840w" src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1551288049-bebda4e38f71%3Fw%
+3D800%26q%3D80&amp;w=3840&amp;q=75"/><div class="absolute inset-0 bg-gradient-to-t from-navy-900 via-navy-900/20 
+to-transparent opacity-60 group-hover:opacity-40 transition-opacity"></div><div class="inline-flex items-center 
+rounded-full border px-2.5 py-0.5 text-xs font-medium transition-colors border-electric-500/30 bg-electric-500/10 
+text-electric-400 absolute top-4 left-4">Featured</div></div><div class="p-6 space-y-4"><div><h3 class="font-heading 
+text-xl font-semibold text-white mb-2 group-hover:text-electric-400 transition-colors">Pulse Analytics 
+Dashboard</h3><p class="text-white/60 text-sm leading-relaxed line-clamp-2">A real-time analytics dashboard with 
+interactive charts and automated reporting for startups.</p></div><div class="flex flex-wrap gap-2"><div 
+class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-medium transition-colors 
+border-white/10 bg-white/5 text-white/70">React</div><div class="inline-flex items-center rounded-full border px-2.5 
+py-0.5 text-xs font-medium transition-colors border-white/10 bg-white/5 text-white/70">D3.js</div><div 
+class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-medium transition-colors 
+border-white/10 bg-white/5 text-white/70">Node.js</div><div class="inline-flex items-center rounded-full border px-2.5 
+py-0.5 text-xs font-medium transition-colors border-white/10 bg-white/5 text-white/70">PostgreSQL</div></div><div 
+class="flex gap-3 pt-2"><a target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center 
+gap-2 whitespace-nowrap text-sm font-medium transition-all focus-visible:outline-none focus-visible:ring-2 
+focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-navy-900 disabled:pointer-events-none 
+disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-electric-500 text-white 
+shadow-lg shadow-electric-500/25 hover:bg-electric-600 hover:shadow-electric-500/40 h-9 rounded-md px-4 flex-1" 
+href="https://example.com"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
+fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide 
+lucide-external-link w-4 h-4" aria-hidden="true"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 
+13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>Live Demo</a><a target="_blank" rel="noopener 
+noreferrer" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all 
+focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 
+focus-visible:ring-offset-navy-900 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none 
+[&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-white/20 bg-transparent text-white hover:bg-white/10 
+hover:border-electric-500/50 h-9 rounded-md px-4 flex-1" href="https://github.com"><svg 
+xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-xml w-4 h-4" 
+aria-hidden="true"><path d="m18 16 4-4-4-4"></path><path d="m6 8-4 4 4 4"></path><path d="m14.5 4-5 
+16"></path></svg>GitHub</a></div></div></div></div><div style="opacity:0;transform:translateY(30px)"><div 
+class="rounded-xl border border-white/10 bg-navy-800/40 text-card-foreground shadow-xl backdrop-blur-sm group 
+overflow-hidden h-full hover:border-electric-500/30 transition-all duration-300"><div class="relative aspect-video 
+overflow-hidden"><img alt="Lumina E-Commerce" loading="lazy" decoding="async" data-nimg="fill" class="object-cover 
+transition-transform duration-500 group-hover:scale-105" 
+style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="(max-width: 
+768px) 100vw, (max-width: 1200px) 50vw, 33vw" srcSet="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-146092
+5895917-afdab827c52f%3Fw%3D800%26q%3D80&amp;w=256&amp;q=75 256w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fp
+hoto-1460925895917-afdab827c52f%3Fw%3D800%26q%3D80&amp;w=384&amp;q=75 384w, /_next/image?url=https%3A%2F%2Fimages.unspl
+ash.com%2Fphoto-1460925895917-afdab827c52f%3Fw%3D800%26q%3D80&amp;w=640&amp;q=75 640w, /_next/image?url=https%3A%2F%2Fi
+mages.unsplash.com%2Fphoto-1460925895917-afdab827c52f%3Fw%3D800%26q%3D80&amp;w=750&amp;q=75 750w, /_next/image?url=http
+s%3A%2F%2Fimages.unsplash.com%2Fphoto-1460925895917-afdab827c52f%3Fw%3D800%26q%3D80&amp;w=828&amp;q=75 828w, /_next/ima
+ge?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1460925895917-afdab827c52f%3Fw%3D800%26q%3D80&amp;w=1080&amp;q=75 
+1080w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1460925895917-afdab827c52f%3Fw%3D800%26q%3D80&amp;w=1
+200&amp;q=75 1200w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1460925895917-afdab827c52f%3Fw%3D800%26q
+%3D80&amp;w=1920&amp;q=75 1920w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1460925895917-afdab827c52f%
+3Fw%3D800%26q%3D80&amp;w=2048&amp;q=75 2048w, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1460925895917-
+afdab827c52f%3Fw%3D800%26q%3D80&amp;w=3840&amp;q=75 3840w" src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fph
+oto-1460925895917-afdab827c52f%3Fw%3D800%26q%3D80&amp;w=3840&amp;q=75"/><div class="absolute inset-0 bg-gradient-to-t 
+from-navy-900 via-navy-900/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity"></div></div><div 
+class="p-6 space-y-4"><div><h3 class="font-heading text-xl font-semibold text-white mb-2 group-hover:text-electric-400 
+transition-colors">Lumina E-Commerce</h3><p class="text-white/60 text-sm leading-relaxed line-clamp-2">A premium 
+e-commerce storefront with AI-powered product recommendations and seamless checkout.</p></div><div class="flex 
+flex-wrap gap-2"><div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-medium 
+transition-colors border-white/10 bg-white/5 text-white/70">Next.js</div><div class="inline-flex items-center 
+rounded-full border px-2.5 py-0.5 text-xs font-medium transition-colors border-white/10 bg-white/5 
+text-white/70">Stripe</div><div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-medium 
+transition-colors border-white/10 bg-white/5 text-white/70">Prisma</div><div class="inline-flex items-center 
+rounded-full border px-2.5 py-0.5 text-xs font-medium transition-colors border-white/10 bg-white/5 
+text-white/70">TypeScript</div></div><div class="flex gap-3 pt-2"><a target="_blank" rel="noopener noreferrer" 
+class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all 
+focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 
+focus-visible:ring-offset-navy-900 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none 
+[&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-electric-500 text-white shadow-lg shadow-electric-500/25 
+hover:bg-electric-600 hover:shadow-electric-500/40 h-9 rounded-md px-4 flex-1" href="https://example.com"><svg 
+xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-4 h-4" 
+aria-hidden="true"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 
+1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>Live Demo</a><a target="_blank" rel="noopener noreferrer" class="inline-flex 
+items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all focus-visible:outline-none 
+focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-navy-900 
+disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 
+[&amp;_svg]:shrink-0 border border-white/20 bg-transparent text-white hover:bg-white/10 hover:border-electric-500/50 
+h-9 rounded-md px-4 flex-1" href="https://github.com"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+class="lucide lucide-code-xml w-4 h-4" aria-hidden="true"><path d="m18 16 4-4-4-4"></path><path d="m6 8-4 4 4 
+4"></path><path d="m14.5 4-5 16"></path></svg>GitHub</a></div></div></div></div></div></div></section><section 
+id="team" class="section-padding bg-navy-950/50"><div class="max-w-7xl mx-auto"><div class="mb-12 md:mb-16 text-center 
+mx-auto max-w-2xl" style="opacity:0;transform:translateY(20px)"><span class="inline-block mb-3 text-sm font-medium 
+tracking-widest uppercase text-electric-400">Our Team</span><h2 class="text-3xl md:text-4xl lg:text-5xl font-bold 
+text-white mb-4 text-balance">Meet the Minds Behind Forbes AI Labs</h2><p class="text-lg text-white/60 
+leading-relaxed">A talented group of student innovators united by a shared passion for technology and 
+excellence.</p></div><div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8"><div 
+style="opacity:0;transform:translateY(30px)"><div class="rounded-xl border border-white/10 bg-navy-800/40 
+text-card-foreground shadow-xl backdrop-blur-sm group text-center hover:border-electric-500/30 transition-all 
+duration-300 overflow-hidden"><div class="relative aspect-square overflow-hidden"><img alt="Madhan Raj K" 
+loading="lazy" decoding="async" data-nimg="fill" class="object-cover transition-transform duration-500 
+group-hover:scale-105" 
+style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="(max-width: 
+768px) 100vw, 33vw" srcSet="/_next/image?url=%2Fteam%2Fmadhan.jpg&amp;w=256&amp;q=75 256w, 
+/_next/image?url=%2Fteam%2Fmadhan.jpg&amp;w=384&amp;q=75 384w, 
+/_next/image?url=%2Fteam%2Fmadhan.jpg&amp;w=640&amp;q=75 640w, 
+/_next/image?url=%2Fteam%2Fmadhan.jpg&amp;w=750&amp;q=75 750w, 
+/_next/image?url=%2Fteam%2Fmadhan.jpg&amp;w=828&amp;q=75 828w, 
+/_next/image?url=%2Fteam%2Fmadhan.jpg&amp;w=1080&amp;q=75 1080w, 
+/_next/image?url=%2Fteam%2Fmadhan.jpg&amp;w=1200&amp;q=75 1200w, 
+/_next/image?url=%2Fteam%2Fmadhan.jpg&amp;w=1920&amp;q=75 1920w, 
+/_next/image?url=%2Fteam%2Fmadhan.jpg&amp;w=2048&amp;q=75 2048w, 
+/_next/image?url=%2Fteam%2Fmadhan.jpg&amp;w=3840&amp;q=75 3840w" 
+src="/_next/image?url=%2Fteam%2Fmadhan.jpg&amp;w=3840&amp;q=75"/><div class="absolute inset-0 bg-gradient-to-t 
+from-navy-900 via-transparent to-transparent"></div></div><div class="p-6 -mt-8 relative"><h3 class="font-heading 
+text-xl font-semibold text-white mb-1">Madhan Raj K</h3><p class="text-electric-400 text-sm font-medium mb-3">Founder 
+&amp; Technical Lead</p><p class="text-white/60 text-sm leading-relaxed mb-4">Leads the team, handles development, and 
+manages client projects.</p><div class="flex items-center justify-center gap-3"><button aria-label="Madhan Raj K 
+LinkedIn" class="w-9 h-9 rounded-lg border border-white/10 flex items-center justify-center text-white/50 
+hover:text-electric-400 hover:border-electric-500/30 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" 
+width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="lucide lucide-link2 lucide-link-2 w-4 h-4" aria-hidden="true"><path d="M9 17H7A5 5 0 0 
+1 7 7h2"></path><path d="M15 7h2a5 5 0 1 1 0 10h-2"></path><line x1="8" x2="16" y1="12" 
+y2="12"></line></svg></button><button aria-label="Madhan Raj K Twitter" class="w-9 h-9 rounded-lg border 
+border-white/10 flex items-center justify-center text-white/50 hover:text-electric-400 hover:border-electric-500/30 
+transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" 
+stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-at-sign w-4 
+h-4" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 
+8"></path></svg></button></div></div></div></div><div style="opacity:0;transform:translateY(30px)"><div 
+class="rounded-xl border border-white/10 bg-navy-800/40 text-card-foreground shadow-xl backdrop-blur-sm group 
+text-center hover:border-electric-500/30 transition-all duration-300 overflow-hidden"><div class="relative 
+aspect-square overflow-hidden"><img alt="Ram G" loading="lazy" decoding="async" data-nimg="fill" class="object-cover 
+transition-transform duration-500 group-hover:scale-105" 
+style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="(max-width: 
+768px) 100vw, 33vw" srcSet="/_next/image?url=%2Fteam%2Fram.jpg&amp;w=256&amp;q=75 256w, 
+/_next/image?url=%2Fteam%2Fram.jpg&amp;w=384&amp;q=75 384w, /_next/image?url=%2Fteam%2Fram.jpg&amp;w=640&amp;q=75 
+640w, /_next/image?url=%2Fteam%2Fram.jpg&amp;w=750&amp;q=75 750w, 
+/_next/image?url=%2Fteam%2Fram.jpg&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fteam%2Fram.jpg&amp;w=1080&amp;q=75 
+1080w, /_next/image?url=%2Fteam%2Fram.jpg&amp;w=1200&amp;q=75 1200w, 
+/_next/image?url=%2Fteam%2Fram.jpg&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fteam%2Fram.jpg&amp;w=2048&amp;q=75 
+2048w, /_next/image?url=%2Fteam%2Fram.jpg&amp;w=3840&amp;q=75 3840w" 
+src="/_next/image?url=%2Fteam%2Fram.jpg&amp;w=3840&amp;q=75"/><div class="absolute inset-0 bg-gradient-to-t 
+from-navy-900 via-transparent to-transparent"></div></div><div class="p-6 -mt-8 relative"><h3 class="font-heading 
+text-xl font-semibold text-white mb-1">Ram G</h3><p class="text-electric-400 text-sm font-medium mb-3">Research &amp; 
+Client Outreach</p><p class="text-white/60 text-sm leading-relaxed mb-4">Handles research, documentation, and finding 
+potential clients.</p><div class="flex items-center justify-center gap-3"><button aria-label="Ram G LinkedIn" 
+class="w-9 h-9 rounded-lg border border-white/10 flex items-center justify-center text-white/50 
+hover:text-electric-400 hover:border-electric-500/30 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" 
+width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="lucide lucide-link2 lucide-link-2 w-4 h-4" aria-hidden="true"><path d="M9 17H7A5 5 0 0 
+1 7 7h2"></path><path d="M15 7h2a5 5 0 1 1 0 10h-2"></path><line x1="8" x2="16" y1="12" 
+y2="12"></line></svg></button><button aria-label="Ram G Twitter" class="w-9 h-9 rounded-lg border border-white/10 flex 
+items-center justify-center text-white/50 hover:text-electric-400 hover:border-electric-500/30 transition-colors"><svg 
+xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-at-sign w-4 h-4" 
+aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 
+8"></path></svg></button></div></div></div></div><div style="opacity:0;transform:translateY(30px)"><div 
+class="rounded-xl border border-white/10 bg-navy-800/40 text-card-foreground shadow-xl backdrop-blur-sm group 
+text-center hover:border-electric-500/30 transition-all duration-300 overflow-hidden"><div class="relative 
+aspect-square overflow-hidden"><img alt="Ahmad Faraz M" loading="lazy" decoding="async" data-nimg="fill" 
+class="object-cover transition-transform duration-500 group-hover:scale-105" 
+style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="(max-width: 
+768px) 100vw, 33vw" srcSet="/_next/image?url=https%3A%2F%2Fui-avatars.com%2Fapi%2F%3Fname%3DAhmad%2BFaraz%26background%
+3D1e3a8a%26color%3Dfff%26size%3D200&amp;w=256&amp;q=75 256w, /_next/image?url=https%3A%2F%2Fui-avatars.com%2Fapi%2F%3Fn
+ame%3DAhmad%2BFaraz%26background%3D1e3a8a%26color%3Dfff%26size%3D200&amp;w=384&amp;q=75 384w, /_next/image?url=https%3A
+%2F%2Fui-avatars.com%2Fapi%2F%3Fname%3DAhmad%2BFaraz%26background%3D1e3a8a%26color%3Dfff%26size%3D200&amp;w=640&amp;q=7
+5 640w, /_next/image?url=https%3A%2F%2Fui-avatars.com%2Fapi%2F%3Fname%3DAhmad%2BFaraz%26background%3D1e3a8a%26color%3Df
+ff%26size%3D200&amp;w=750&amp;q=75 750w, /_next/image?url=https%3A%2F%2Fui-avatars.com%2Fapi%2F%3Fname%3DAhmad%2BFaraz%
+26background%3D1e3a8a%26color%3Dfff%26size%3D200&amp;w=828&amp;q=75 828w, /_next/image?url=https%3A%2F%2Fui-avatars.com
+%2Fapi%2F%3Fname%3DAhmad%2BFaraz%26background%3D1e3a8a%26color%3Dfff%26size%3D200&amp;w=1080&amp;q=75 1080w, /_next/ima
+ge?url=https%3A%2F%2Fui-avatars.com%2Fapi%2F%3Fname%3DAhmad%2BFaraz%26background%3D1e3a8a%26color%3Dfff%26size%3D200&am
+p;w=1200&amp;q=75 1200w, /_next/image?url=https%3A%2F%2Fui-avatars.com%2Fapi%2F%3Fname%3DAhmad%2BFaraz%26background%3D1
+e3a8a%26color%3Dfff%26size%3D200&amp;w=1920&amp;q=75 1920w, /_next/image?url=https%3A%2F%2Fui-avatars.com%2Fapi%2F%3Fna
+me%3DAhmad%2BFaraz%26background%3D1e3a8a%26color%3Dfff%26size%3D200&amp;w=2048&amp;q=75 2048w, /_next/image?url=https%3
+A%2F%2Fui-avatars.com%2Fapi%2F%3Fname%3DAhmad%2BFaraz%26background%3D1e3a8a%26color%3Dfff%26size%3D200&amp;w=3840&amp;q
+=75 3840w" src="/_next/image?url=https%3A%2F%2Fui-avatars.com%2Fapi%2F%3Fname%3DAhmad%2BFaraz%26background%3D1e3a8a%26c
+olor%3Dfff%26size%3D200&amp;w=3840&amp;q=75"/><div class="absolute inset-0 bg-gradient-to-t from-navy-900 
+via-transparent to-transparent"></div></div><div class="p-6 -mt-8 relative"><h3 class="font-heading text-xl 
+font-semibold text-white mb-1">Ahmad Faraz M</h3><p class="text-electric-400 text-sm font-medium mb-3">Backend 
+Developer</p><p class="text-white/60 text-sm leading-relaxed mb-4">Works on backend development and AI automation 
+tools.</p><div class="flex items-center justify-center gap-3"><button aria-label="Ahmad Faraz M LinkedIn" class="w-9 
+h-9 rounded-lg border border-white/10 flex items-center justify-center text-white/50 hover:text-electric-400 
+hover:border-electric-500/30 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+class="lucide lucide-link2 lucide-link-2 w-4 h-4" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2"></path><path 
+d="M15 7h2a5 5 0 1 1 0 10h-2"></path><line x1="8" x2="16" y1="12" y2="12"></line></svg></button><button 
+aria-label="Ahmad Faraz M Twitter" class="w-9 h-9 rounded-lg border border-white/10 flex items-center justify-center 
+text-white/50 hover:text-electric-400 hover:border-electric-500/30 transition-colors"><svg 
+xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-at-sign w-4 h-4" 
+aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 
+8"></path></svg></button></div></div></div></div></div></div></section><section id="contact" class="section-padding 
+relative"><div class="absolute inset-0 bg-card-glow pointer-events-none"></div><div class="relative max-w-7xl 
+mx-auto"><div class="mb-12 md:mb-16 text-center mx-auto max-w-2xl" style="opacity:0;transform:translateY(20px)"><span 
+class="inline-block mb-3 text-sm font-medium tracking-widest uppercase text-electric-400">Contact</span><h2 
+class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 text-balance">Let&#x27;s Build Something 
+Amazing</h2><p class="text-lg text-white/60 leading-relaxed">Ready to start your project? Reach out and we&#x27;ll get 
+back to you within 24 hours.</p></div><div class="grid lg:grid-cols-5 gap-8 lg:gap-12"><div class="lg:col-span-2 
+space-y-6" style="opacity:0;transform:translateX(-30px)"><div class="rounded-xl border border-white/10 bg-navy-800/40 
+text-card-foreground shadow-xl backdrop-blur-sm glass"><div class="p-6 space-y-6"><div class="flex items-start 
+gap-4"><div class="w-10 h-10 rounded-lg bg-electric-500/10 border border-electric-500/20 flex items-center 
+justify-center shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
+fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide 
+lucide-mail w-5 h-5 text-electric-400" aria-hidden="true"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 
+7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg></div><div><h4 class="text-white font-medium 
+mb-1">Email Us</h4><a href="mailto:ram46200767@gmail.com" class="text-white/60 hover:text-electric-400 
+transition-colors text-sm">ram46200767@gmail.com</a></div></div><div class="flex items-start gap-4"><div class="w-10 
+h-10 rounded-lg bg-electric-500/10 border border-electric-500/20 flex items-center justify-center shrink-0"><svg 
+xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle w-5 h-5 
+text-electric-400" aria-hidden="true"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 
+1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path></svg></div><div><h4 class="text-white 
+font-medium mb-1">WhatsApp</h4><a href="https://wa.me/918123330661" target="_blank" rel="noopener noreferrer" 
+class="text-white/60 hover:text-electric-400 transition-colors text-sm">+91 81233 30661</a></div></div><div 
+class="flex items-start gap-4"><div class="w-10 h-10 rounded-lg bg-electric-500/10 border border-electric-500/20 flex 
+items-center justify-center shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 
+24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide 
+lucide-phone w-5 h-5 text-electric-400" aria-hidden="true"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 
+0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 
+1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg></div><div><h4 class="text-white font-medium 
+mb-1">Phone</h4><a href="tel:+918123330661" class="text-white/60 hover:text-electric-400 transition-colors 
+text-sm">+91 81233 30661</a></div></div></div></div><a href="https://wa.me/918123330661" target="_blank" rel="noopener 
+noreferrer" class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all 
+focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 
+focus-visible:ring-offset-navy-900 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none 
+[&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-electric-500 text-white shadow-lg shadow-electric-500/25 
+hover:bg-electric-600 hover:shadow-electric-500/40 h-12 rounded-lg px-8 text-base w-full"><svg 
+xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle w-5 h-5" 
+aria-hidden="true"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 
+1.099.092 10 10 0 1 0-4.777-4.719"></path></svg>Chat on WhatsApp</a></div><div class="lg:col-span-3" 
+style="opacity:0;transform:translateX(30px)"><div class="rounded-xl border border-white/10 bg-navy-800/40 
+text-card-foreground shadow-xl backdrop-blur-sm"><div class="p-6 md:p-8"><form class="space-y-6"><div class="grid 
+sm:grid-cols-2 gap-6"><div class="space-y-2"><label class="text-sm font-medium text-white/90 leading-none 
+peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="name">Full Name</label><input class="flex h-11 w-full 
+rounded-lg border border-white/10 bg-navy-800/50 px-4 py-2 text-sm text-white placeholder:text-muted-foreground 
+transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-electric-500/50 
+focus-visible:border-electric-500/50 disabled:cursor-not-allowed disabled:opacity-50" id="name" placeholder="John Doe" 
+required="" name="name"/></div><div class="space-y-2"><label class="text-sm font-medium text-white/90 leading-none 
+peer-disabled:cursor-not-allowed peer-disabled:opacity-70" for="email">Email</label><input type="email" class="flex 
+h-11 w-full rounded-lg border border-white/10 bg-navy-800/50 px-4 py-2 text-sm text-white 
+placeholder:text-muted-foreground transition-colors focus-visible:outline-none focus-visible:ring-2 
+focus-visible:ring-electric-500/50 focus-visible:border-electric-500/50 disabled:cursor-not-allowed 
+disabled:opacity-50" id="email" placeholder="john@example.com" required="" name="email"/></div></div><div 
+class="space-y-2"><label class="text-sm font-medium text-white/90 leading-none peer-disabled:cursor-not-allowed 
+peer-disabled:opacity-70" for="subject">Subject</label><input class="flex h-11 w-full rounded-lg border 
+border-white/10 bg-navy-800/50 px-4 py-2 text-sm text-white placeholder:text-muted-foreground transition-colors 
+focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-electric-500/50 
+focus-visible:border-electric-500/50 disabled:cursor-not-allowed disabled:opacity-50" id="subject" 
+placeholder="Project inquiry" required="" name="subject"/></div><div class="space-y-2"><label class="text-sm 
+font-medium text-white/90 leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" 
+for="message">Message</label><textarea class="flex min-h-[120px] w-full rounded-lg border border-white/10 
+bg-navy-800/50 px-4 py-3 text-sm text-white placeholder:text-muted-foreground transition-colors 
+focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-electric-500/50 
+focus-visible:border-electric-500/50 disabled:cursor-not-allowed disabled:opacity-50 resize-none" id="message" 
+name="message" placeholder="Tell us about your project..." required=""></textarea></div><button class="inline-flex 
+items-center justify-center gap-2 whitespace-nowrap font-medium transition-all focus-visible:outline-none 
+focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-navy-900 
+disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 
+[&amp;_svg]:shrink-0 bg-electric-500 text-white shadow-lg shadow-electric-500/25 hover:bg-electric-600 
+hover:shadow-electric-500/40 h-12 rounded-lg px-8 text-base w-full sm:w-auto" type="submit"><svg 
+xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send w-4 h-4" 
+aria-hidden="true"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 
+0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path><path d="m21.854 2.147-10.94 10.939"></path></svg>Send 
+Message</button></form></div></div></div></div></div></section><footer class="border-t border-white/5 
+bg-navy-950"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12"><div class="flex flex-col md:flex-row 
+items-center justify-between gap-6"><a class="flex items-center gap-2" href="/"><div class="flex items-center 
+justify-center w-8 h-8 rounded-lg bg-electric-500/20 border border-electric-500/30"><svg 
+xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4 
+text-electric-400" aria-hidden="true"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 
+1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 
+0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path 
+d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg></div><span class="font-heading font-bold 
+text-white">Forbes <span class="text-electric-400">AI Labs</span></span></a><div class="flex flex-wrap items-center 
+justify-center gap-6 text-sm text-white/50"><a class="hover:text-white transition-colors" href="#about">About</a><a 
+class="hover:text-white transition-colors" href="#services">Services</a><a class="hover:text-white transition-colors" 
+href="#work">Work</a><a class="hover:text-white transition-colors" href="#contact">Contact</a></div><p class="text-sm 
+text-white/40">c <!-- -->2026<!-- --> Forbes AI Labs. All rights reserved.</p></div></div></footer></main><script 
+src="/_next/static/chunks/webpack.js?v=1782238453667" async=""></script><script>(self.__next_f=self.__next_f||[]).push(
+[0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/css/app/layout.css?v=1782
+238453667\",\"style\"]\n0:D{\"name\":\"r5\",\"env\":\"Server\"}\n"])</script><script>self.__next_f.push([1,"2:I[\"(app-
+pages-browser)/./node_modules/next/dist/client/components/app-router.js\",[\"app-pages-internals\",\"static/chunks/app-
+pages-internals.js\"],\"\"]\n6:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js\",[\
+"app-pages-internals\",\"static/chunks/app-pages-internals.js\"],\"\"]\n7:I[\"(app-pages-browser)/./node_modules/next/d
+ist/client/components/render-from-template-context.js\",[\"app-pages-internals\",\"static/chunks/app-pages-internals.js
+\"],\"\"]\nb:I[\"(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js\",[\"app-pages-intern
+als\",\"static/chunks/app-pages-internals.js\"],\"\"]\n3:D{\"name\":\"\",\"env\":\"Server\"}\n4:D{\"name\":\"Home\",\"e
+nv\":\"Server\"}\n5:D{\"name\":\"RootLayout\",\"env\":\"Server\"}\n8:D{\"name\":\"NotFound\",\"env\":\"Server\"}\n8:[[\
+"$\",\"title\",null,{\"children\":\"404: This page could not be 
+found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe 
+UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"text
+Align\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"cen
+ter\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\
+"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media 
+(prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}
+}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 
+0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},
+\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\
+"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not 
+be found.\"}]}]]}]}]]\n5:[\"$\",\"html\",null,{\"lang\":\"en\",\"className\":\"dark\",\"children\":[\"$\",\"body\",null
+,{\"className\":\"__variable_dd5b2f __variable_f367f3 font-body antialiased\",\"children\":[\"$\",\"$L6\",null,{\"paral
+lelRouterKey\""])</script><script>self.__next_f.push([1,":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$unde
+fined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L7\",null,{}],\"templateS
+tyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$8\",\"notFoundStyles\":[]}]}]}]\n9:D{\"name\"
+:\"r6\",\"env\":\"Server\"}\n9:null\na:D{\"name\":\"\",\"env\":\"Server\"}\nc:[]\n0:[\"$\",\"$L2\",null,{\"buildId\":\"
+development\",\"assetPrefix\":\"\",\"urlParts\":[\"\",\"\"],\"initialTree\":[\"\",{\"children\":[\"__PAGE__\",{}]},\"$u
+ndefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"__PAGE__\",{},[[\"$L3\",\"$L4\",null],null],
+null]},[[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/app/layout.css?v=1782238453667\",\
+"precedence\":\"next_static/css/app/layout.css\",\"crossOrigin\":\"$undefined\"}]],\"$5\"],null],null],\"couldBeInterce
+pted\":false,\"initialHead\":[\"$9\",\"$La\"],\"globalErrorComponent\":\"$b\",\"missingSlots\":\"$Wc\"}]\n"])</script><
+script>self.__next_f.push([1,"d:I[\"(app-pages-browser)/./src/components/layout/navbar.tsx\",[\"app/page\",\"static/chu
+nks/app/page.js\"],\"Navbar\"]\ne:I[\"(app-pages-browser)/./src/components/sections/hero.tsx\",[\"app/page\",\"static/c
+hunks/app/page.js\"],\"Hero\"]\nf:I[\"(app-pages-browser)/./src/components/sections/about.tsx\",[\"app/page\",\"static/
+chunks/app/page.js\"],\"About\"]\n10:I[\"(app-pages-browser)/./src/components/sections/services.tsx\",[\"app/page\",\"s
+tatic/chunks/app/page.js\"],\"Services\"]\n11:I[\"(app-pages-browser)/./src/components/sections/portfolio.tsx\",[\"app/
+page\",\"static/chunks/app/page.js\"],\"Portfolio\"]\n12:I[\"(app-pages-browser)/./src/components/sections/team.tsx\",[
+\"app/page\",\"static/chunks/app/page.js\"],\"Team\"]\n13:I[\"(app-pages-browser)/./src/components/sections/contact.tsx
+\",[\"app/page\",\"static/chunks/app/page.js\"],\"Contact\"]\n15:I[\"(app-pages-browser)/./node_modules/next/dist/clien
+t/link.js\",[\"app/page\",\"static/chunks/app/page.js\"],\"\"]\n17:I[\"(app-pages-browser)/./node_modules/lucide-react/
+dist/esm/Icon.mjs\",[\"app/page\",\"static/chunks/app/page.js\"],\"default\"]\n14:D{\"name\":\"Footer\",\"env\":\"Serve
+r\"}\n16:D{\"name\":\"Sparkles\",\"env\":\"Server\"}\n16:[\"$\",\"$L17\",null,{\"iconNode\":[[\"path\",{\"d\":\"M11.017
+ 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 
+1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 
+0 0 0 1.594-1.594z\",\"key\":\"1s2grr\"}],[\"path\",{\"d\":\"M20 2v4\",\"key\":\"1rf3ol\"}],[\"path\",{\"d\":\"M22 4h-4
+\",\"key\":\"gwowj6\"}],[\"circle\",{\"cx\":\"4\",\"cy\":\"20\",\"r\":\"2\",\"key\":\"6kqj1y\"}]],\"className\":\"lucid
+e-sparkles w-4 h-4 text-electric-400\"}]\n14:[\"$\",\"footer\",null,{\"className\":\"border-t border-white/5 
+bg-navy-950\",\"children\":[\"$\",\"div\",null,{\"className\":\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 
+py-12\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col md:flex-row items-center justify-between 
+gap-6\",\"children\":[[\"$\",\"$L15\",null,{\"href\":\"/\",\"className\":\"flex items-center 
+gap-2\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center 
+justify-"])</script><script>self.__next_f.push([1,"center w-8 h-8 rounded-lg bg-electric-500/20 border 
+border-electric-500/30\",\"children\":\"$16\"}],[\"$\",\"span\",null,{\"className\":\"font-heading font-bold 
+text-white\",\"children\":[\"Forbes \",[\"$\",\"span\",null,{\"className\":\"text-electric-400\",\"children\":\"AI 
+Labs\"}]]}]]}],[\"$\",\"div\",null,{\"className\":\"flex flex-wrap items-center justify-center gap-6 text-sm 
+text-white/50\",\"children\":[[\"$\",\"$L15\",null,{\"href\":\"#about\",\"className\":\"hover:text-white transition-col
+ors\",\"children\":\"About\"}],[\"$\",\"$L15\",null,{\"href\":\"#services\",\"className\":\"hover:text-white transition
+-colors\",\"children\":\"Services\"}],[\"$\",\"$L15\",null,{\"href\":\"#work\",\"className\":\"hover:text-white transit
+ion-colors\",\"children\":\"Work\"}],[\"$\",\"$L15\",null,{\"href\":\"#contact\",\"className\":\"hover:text-white 
+transition-colors\",\"children\":\"Contact\"}]]}],[\"$\",\"p\",null,{\"className\":\"text-sm 
+text-white/40\",\"children\":[\"c \",2026,\" Forbes AI Labs. All rights reserved.\"]}]]}]}]}]\n4:[\"$\",\"main\",null,{
+\"className\":\"min-h-screen\",\"children\":[[\"$\",\"$Ld\",null,{}],[\"$\",\"$Le\",null,{}],[\"$\",\"$Lf\",null,{}],[\
+"$\",\"$L10\",null,{}],[\"$\",\"$L11\",null,{\"projects\":[{\"id\":\"1\",\"title\":\"Nova AI 
+Assistant\",\"description\":\"An intelligent chatbot platform with real-time responses and custom knowledge bases for b
+usinesses.\",\"image_url\":\"https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800\u0026q=80\",\"tech_stac
+k\":[\"Next.js\",\"OpenAI\",\"Supabase\",\"Tailwind\"],\"live_url\":\"https://example.com\",\"github_url\":\"https://gi
+thub.com\",\"featured\":true,\"created_at\":\"2026-06-23T18:14:13.697Z\",\"updated_at\":\"2026-06-23T18:14:13.697Z\"},{
+\"id\":\"2\",\"title\":\"Pulse Analytics Dashboard\",\"description\":\"A real-time analytics dashboard with 
+interactive charts and automated reporting for startups.\",\"image_url\":\"https://images.unsplash.com/photo-1551288049
+-bebda4e38f71?w=800\u0026q=80\",\"tech_stack\":[\"React\",\"D3.js\",\"Node.js\",\"PostgreSQL\"],\"live_url\":\"https://
+example.com\",\"github_url\":\"https://github.com\",\"featured\":true,\"created_at\":\"2026-06-23T18:14:13.698Z\",\"upd
+ated_at\":\"2026-06-23T18:14:13.698Z\"},{\"id\":\"3\",\"title\":\"Lumina 
+E-Commer"])</script><script>self.__next_f.push([1,"ce\",\"description\":\"A premium e-commerce storefront with 
+AI-powered product recommendations and seamless checkout.\",\"image_url\":\"https://images.unsplash.com/photo-146092589
+5917-afdab827c52f?w=800\u0026q=80\",\"tech_stack\":[\"Next.js\",\"Stripe\",\"Prisma\",\"TypeScript\"],\"live_url\":\"ht
+tps://example.com\",\"github_url\":\"https://github.com\",\"featured\":false,\"created_at\":\"2026-06-23T18:14:13.698Z\
+",\"updated_at\":\"2026-06-23T18:14:13.698Z\"}]}],[\"$\",\"$L12\",null,{}],[\"$\",\"$L13\",null,{}],\"$14\"]}]\na:[[\"$
+\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, 
+initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"Forbes AI 
+Labs | Student-Led AI \u0026 Web Development 
+Agency\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"Forbes AI Labs crafts cutting-edge AI 
+solutions and premium web experiences. Student-led agency delivering intelligent digital products for startups and 
+businesses.\"}],[\"$\",\"meta\",\"4\",{\"name\":\"keywords\",\"content\":\"AI development,web development,student 
+agency,Next.js,machine learning,UI/UX design\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:title\",\"content\":\"Forbes 
+AI Labs\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:description\",\"content\":\"Student-led AI \u0026 Web Development 
+Agency\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"8\",{\"name\":\"
+twitter:card\",\"content\":\"summary\"}],[\"$\",\"meta\",\"9\",{\"name\":\"twitter:title\",\"content\":\"Forbes AI 
+Labs\"}],[\"$\",\"meta\",\"10\",{\"name\":\"twitter:description\",\"content\":\"Student-led AI \u0026 Web Development A
+gency\"}],[\"$\",\"link\",\"11\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"16x1
+6\"}]]\n3:null\n"])</script></body></html>
+
+
