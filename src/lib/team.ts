@@ -21,9 +21,9 @@ export const teamMembers: TeamMember[] = [
     image: "/team/madhan.jpg",
     bio: "Full-stack developer and AI specialist who leads product strategy, client relations, and technical direction. Madhan architects every project from concept to deployment, ensuring solutions are scalable, intelligent, and aligned with client goals.",
     expertise: ["Full-Stack Development", "AI Integration", "Product Strategy", "Client Relations"],
-    linkedin: "https://linkedin.com/in/madhan-raj-k",
-    github: "https://github.com/madhanraj-k",
-    twitter: "https://twitter.com/madhanraj_k",
+    linkedin: "https://www.linkedin.com/in/madhan-raj-k-995211384",
+    github: "https://github.com/Madhan-raj-k",
+    twitter: "https://x.com/madanrajmadan30",
   },
   {
     name: "Ram G",
