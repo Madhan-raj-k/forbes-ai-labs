@@ -13,7 +13,7 @@ export function Footer() {
               <Sparkles className="w-4 h-4 text-electric-400" />
             </div>
             <span className="font-heading font-bold text-white">
-              Forbes <span className="text-electric-400">AI Labs</span>
+              Code<span className="text-electric-400">ify</span>
             </span>
           </Link>
 
@@ -33,7 +33,7 @@ export function Footer() {
           </div>
 
           <p className="text-sm text-white/40">
-            © {currentYear} Forbes AI Labs. All rights reserved.
+            © {currentYear} Codeify. All rights reserved.
           </p>
         </div>
       </div>

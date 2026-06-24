@@ -35,7 +35,7 @@ export function Hero() {
             >
               <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-electric-500/30 bg-electric-500/10 text-electric-400 text-sm font-medium mb-6">
                 <span className="w-2 h-2 rounded-full bg-electric-400 animate-pulse" />
-                Student-led AI & Web Agency
+                AI & Web Agency
               </span>
             </motion.div>
 
@@ -56,7 +56,7 @@ export function Hero() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-lg md:text-xl text-white/60 max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed"
             >
-              Forbes AI Labs crafts cutting-edge AI solutions and premium web
+              Codeify crafts cutting-edge AI solutions and premium web
               experiences for startups, businesses, and innovators ready to lead
               the future.
             </motion.p>

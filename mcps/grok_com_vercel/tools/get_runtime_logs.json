@@ -1,6 +1,6 @@
 {
   "name": "get_runtime_logs",
-  "description": "Get runtime logs for a project or deployment. Runtime logs show application output (console.log, errors, etc.) from serverless functions and edge functions during execution. Supports filtering by environment, log level, status code, source, time range, and full-text search. Useful for debugging runtime issues, monitoring application behavior, and investigating errors in production.",
+  "description": "Get runtime logs for a project or deployment. Runtime logs show application output (console.log, errors, etc.) from serverless functions and edge functions during execution. Supports filtering by environment, log level, status code, source, time range, and full-text search. For wide time ranges, scope to a deploymentId for speed, or use group_by to get counts instead of individual lines. To investigate production errors specifically, prefer get_runtime_errors.",
   "inputSchema": {
     "type": "object",
     "properties": {
@@ -73,6 +73,19 @@
       "requestId": {
         "type": "string",
         "description": "Filter by specific request ID."
+      },
+      "group_by": {
+        "type": "string",
+        "enum": [
+          "statusCode",
+          "requestPath",
+          "route",
+          "level",
+          "source",
+          "deploymentId",
+          "branch"
+        ],
+        "description": "Return counts grouped by this attribute instead of individual log lines. Use for \"how many errors\", \"status code breakdown\", \"top paths\". Fast even over wide time ranges."
       }
     },
     "required": [

@@ -10,7 +10,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 
-const CONTACT_EMAIL = "ram46200767@gmail.com";
+const CONTACT_EMAIL = "teamcodeify@gmail.com";
 const CONTACT_PHONE = "+91 81233 30661";
 const WHATSAPP_LINK = "https://wa.me/918123330661";
 

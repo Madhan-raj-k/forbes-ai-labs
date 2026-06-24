@@ -42,7 +42,7 @@ export function Navbar() {
               <Sparkles className="w-5 h-5 text-electric-400" />
             </div>
             <span className="font-heading font-bold text-lg text-white">
-              Forbes <span className="text-electric-400">AI Labs</span>
+              Code<span className="text-electric-400">ify</span>
             </span>
           </Link>
 

@@ -15,9 +15,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Forbes AI Labs | Student-Led AI & Web Development Agency",
+  title: "Codeify | AI & Web Development Agency",
   description:
-    "Forbes AI Labs crafts cutting-edge AI solutions and premium web experiences. Student-led agency delivering intelligent digital products for startups and businesses.",
+    "Codeify crafts cutting-edge AI solutions and premium web experiences, delivering intelligent digital products for startups and businesses.",
   keywords: [
     "AI development",
     "web development",
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
     "UI/UX design",
   ],
   openGraph: {
-    title: "Forbes AI Labs",
-    description: "Student-led AI & Web Development Agency",
+    title: "Codeify",
+    description: "AI & Web Development Agency",
     type: "website",
   },
 };

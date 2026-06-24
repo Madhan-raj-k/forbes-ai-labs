@@ -13,7 +13,7 @@ export function Team() {
       <div className="max-w-7xl mx-auto">
         <SectionHeading
           label="Our Team"
-          title="Meet the Minds Behind Forbes AI Labs"
+          title="Meet the Minds Behind Codeify"
           description="A talented group of student innovators united by a shared passion for technology and excellence."
         />
 

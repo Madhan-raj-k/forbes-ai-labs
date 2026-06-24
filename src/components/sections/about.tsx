@@ -6,7 +6,7 @@ import { CheckCircle2 } from "lucide-react";
 import { SectionHeading } from "@/components/shared/section-heading";
 
 const highlights = [
-  "Student-led team with industry-grade expertise",
+  "Team with industry-grade expertise",
   "Agile development with rapid turnaround",
   "Cutting-edge AI integration in every project",
   "Transparent communication & fair pricing",
@@ -35,7 +35,7 @@ export function About() {
             <div className="relative rounded-2xl overflow-hidden border border-white/10">
               <Image
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80"
-                alt="Forbes AI Labs team collaborating"
+                alt="Codeify team collaborating"
                 width={800}
                 height={600}
                 className="w-full aspect-[4/3] object-cover"
@@ -53,7 +53,7 @@ export function About() {
             className="space-y-6"
           >
             <p className="text-white/70 text-lg leading-relaxed">
-              Founded at the intersection of academia and industry, Forbes AI Labs
+              Founded at the intersection of academia and industry, Codeify
               was born from a simple belief: students can deliver world-class
               digital products when given the right tools and mentorship.
             </p>
