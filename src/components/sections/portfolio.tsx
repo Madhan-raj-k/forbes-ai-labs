@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ExternalLink, Code2 } from "lucide-react";
+import { ExternalLink, Code2, Clock } from "lucide-react";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -42,19 +42,28 @@ export function Portfolio({ projects }: PortfolioProps) {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
-                <Card className="group overflow-hidden h-full hover:border-electric-500/30 transition-all duration-300">
-                  {/* Project Image */}
+                <Card className="group overflow-hidden h-full hover:border-electric-500/30 hover:-translate-y-1 hover:shadow-xl hover:shadow-electric-500/10 transition-all duration-300">
                   <div className="relative aspect-video overflow-hidden">
                     <Image
                       src={project.image_url}
                       alt={project.title}
                       fill
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      className="object-cover transition-transform duration-500 group-hover:scale-110"
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-navy-900 via-navy-900/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-navy-900 via-navy-900/30 to-transparent opacity-70 group-hover:opacity-50 transition-opacity duration-300" />
+
                     {project.featured && (
                       <Badge className="absolute top-4 left-4">Featured</Badge>
+                    )}
+
+                    {!project.live_url && !project.github_url && (
+                      <div className="absolute top-4 right-4">
+                        <Badge variant="secondary" className="gap-1">
+                          <Clock className="w-3 h-3" />
+                          Coming Soon
+                        </Badge>
+                      </div>
                     )}
                   </div>
 
@@ -63,47 +72,51 @@ export function Portfolio({ projects }: PortfolioProps) {
                       <h3 className="font-heading text-xl font-semibold text-white mb-2 group-hover:text-electric-400 transition-colors">
                         {project.title}
                       </h3>
-                      <p className="text-white/60 text-sm leading-relaxed line-clamp-2">
+                      <p className="text-white/60 text-sm leading-relaxed line-clamp-3">
                         {project.description}
                       </p>
                     </div>
 
-                    {/* Tech Stack */}
                     <div className="flex flex-wrap gap-2">
                       {project.tech_stack.map((tech) => (
-                        <Badge key={tech} variant="secondary">
+                        <Badge
+                          key={tech}
+                          variant="secondary"
+                          className="group-hover:border-electric-500/20 transition-colors"
+                        >
                           {tech}
                         </Badge>
                       ))}
                     </div>
 
-                    {/* Action Buttons */}
-                    <div className="flex gap-3 pt-2">
-                      {project.live_url && (
-                        <Button asChild size="sm" className="flex-1">
-                          <Link
-                            href={project.live_url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <ExternalLink className="w-4 h-4" />
-                            Live Demo
-                          </Link>
-                        </Button>
-                      )}
-                      {project.github_url && (
-                        <Button asChild variant="outline" size="sm" className="flex-1">
-                          <Link
-                            href={project.github_url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <Code2 className="w-4 h-4" />
-                            GitHub
-                          </Link>
-                        </Button>
-                      )}
-                    </div>
+                    {(project.live_url || project.github_url) && (
+                      <div className="flex gap-3 pt-2">
+                        {project.live_url && (
+                          <Button asChild size="sm" className="flex-1">
+                            <Link
+                              href={project.live_url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <ExternalLink className="w-4 h-4" />
+                              Live Demo
+                            </Link>
+                          </Button>
+                        )}
+                        {project.github_url && (
+                          <Button asChild variant="outline" size="sm" className="flex-1">
+                            <Link
+                              href={project.github_url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <Code2 className="w-4 h-4" />
+                              GitHub
+                            </Link>
+                          </Button>
+                        )}
+                      </div>
+                    )}
                   </CardContent>
                 </Card>
               </motion.div>

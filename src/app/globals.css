@@ -66,4 +66,8 @@
   .gradient-text {
     @apply bg-gradient-to-r from-electric-400 via-electric-500 to-electric-600 bg-clip-text text-transparent;
   }
+
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-1;
+  }
 }

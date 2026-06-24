@@ -1,41 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  Brain,
-  Globe,
-  Smartphone,
-  BarChart3,
-} from "lucide-react";
 import { SectionHeading } from "@/components/shared/section-heading";
+import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
-const services = [
-  {
-    icon: Brain,
-    title: "AI Solutions",
-    description:
-      "Custom AI integrations, chatbots, automation workflows, and machine learning models tailored to your business needs.",
-  },
-  {
-    icon: Globe,
-    title: "Web Development",
-    description:
-      "Premium, responsive websites and web applications built with modern frameworks like Next.js, React, and TypeScript.",
-  },
-  {
-    icon: Smartphone,
-    title: "UI/UX Design",
-    description:
-      "Beautiful, intuitive interfaces designed with user research, wireframing, and pixel-perfect visual design.",
-  },
-  {
-    icon: BarChart3,
-    title: "Data & Analytics",
-    description:
-      "Interactive dashboards, data pipelines, and analytics platforms that turn raw data into actionable insights.",
-  },
-];
+import { services } from "@/lib/services";
 
 export function Services() {
   return (
@@ -56,17 +25,26 @@ export function Services() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Card className="h-full group hover:border-electric-500/30 hover:bg-navy-800/60 transition-all duration-300">
+              <Card className="h-full group hover:border-electric-500/30 hover:bg-navy-800/60 hover:-translate-y-1 hover:shadow-lg hover:shadow-electric-500/5 transition-all duration-300">
                 <CardHeader>
-                  <div className="w-12 h-12 rounded-xl bg-electric-500/10 border border-electric-500/20 flex items-center justify-center mb-4 group-hover:bg-electric-500/20 group-hover:scale-110 transition-all duration-300">
+                  <div className="w-12 h-12 rounded-xl bg-electric-500/10 border border-electric-500/20 flex items-center justify-center mb-4 group-hover:bg-electric-500/20 group-hover:scale-110 group-hover:border-electric-500/40 transition-all duration-300">
                     <service.icon className="w-6 h-6 text-electric-400" />
                   </div>
-                  <CardTitle className="text-white">{service.title}</CardTitle>
+                  <CardTitle className="text-white group-hover:text-electric-400 transition-colors">
+                    {service.title}
+                  </CardTitle>
                 </CardHeader>
-                <CardContent>
-                  <p className="text-white/60 leading-relaxed">
+                <CardContent className="space-y-4">
+                  <p className="text-white/60 leading-relaxed text-sm">
                     {service.description}
                   </p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {service.highlights.map((highlight) => (
+                      <Badge key={highlight} variant="secondary" className="text-xs">
+                        {highlight}
+                      </Badge>
+                    ))}
+                  </div>
                 </CardContent>
               </Card>
             </motion.div>
